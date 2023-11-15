@@ -1,0 +1,82 @@
+body, html {
+    height: 100%;
+}
+
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    background-color: rgb(68, 68, 87);
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: darkslategrey;
+    padding: 8px;
+    background-color: #040D12;
+}
+
+.rowOfThreeButtons, .rowOfFourButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.rowDisplay {
+    align-self: center;
+    padding: 12px;
+    border-style: solid;
+    border-color: rgb(64, 64, 168);
+    background-color: rgb(83, 83, 131);
+    border-radius: 10%;
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: azure;
+    font-weight: bolder;
+    box-shadow: 10cap;
+    text-shadow: 20cap;
+    min-width: 120px;
+    min-height: 18px;
+    text-align: center;
+}
+
+.numberButton, .operationButton {
+    background-color: #f4bf96;
+    color: #183D3D;
+    font-size: 26px;
+    width: 200px;
+    box-shadow: 10cap;
+}
+
+.operationButton {
+    background-color: #5C8374;
+}
+.calculator {
+    width: 200px;
+}
+
+.headerBanner {
+    background-color: rgb(146, 146, 197);
+    font-size: 45px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 5px;
+    box-shadow: 50px;
+}
+
+.footerBanner {
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
